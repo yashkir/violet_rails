@@ -51,5 +51,5 @@ after 'deploy:finishing', 'deploy:restart_sidekiq'
 after "deploy:finishing", "deploy:cleanup" 
 
 # non essential tasks
-after 'deploy:finishing', 'sitemap:clean'
-after 'deploy:finishing', 'sitemap:refresh'
+# after 'deploy:finishing', 'sitemap:clean'
+# after 'deploy:finishing', 'sitemap:refresh'
